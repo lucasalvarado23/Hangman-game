@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+c {
+	padding:5px;
+	border-bottom:#00F 3px solid;
+	margin-right:10px;
+}
+
+#words {
+	padding:20px;
+	font-size:2.5em;
+	color:#FFF;
+	margin-top:15%;
+	text-align:center;
+}
+
+.word-active {
+	color:#000;
+}
+
+.guessed-words-container {
+	width:100%;
+	border:#000 2px solid;
+	margin-left:auto;
+	margin-left:-44px;
+	padding:20px;
+}
+
+#guessed-words {
+	overflow:hidden;
+}
+
+myletter {
+	float:left;
+	padding:15px;
+	font-size:2em;
+}
+
+#guess-count {
+	margin-top:10px;
+	font-size:2em;
+	text-align:center;
+}
+
+.hangman-container {
+	overflow:hidden;
+	margin-top:40px;
+}
+
+.hangman-column-one {
+	float:left;
+	width:45%;
+}
+
+.hangman-column-two {
+	float:right;
+	width:45%;
+}
+
+#hanger-holder {
+	text-align:center;
+}
+body {
+	background-image: url("pics/hangman.jpg");
+	 background-repeat: no-repeat;
+}
